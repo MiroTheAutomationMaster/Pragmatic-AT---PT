@@ -23,7 +23,34 @@ let checkTypeOf = combinedArray.map((element: number | string) => {
   } else {
     return `Welcome ${element}`;
   }
-})
-//console.log(multiplyNums);
+});
+// console.log(multiplyNums);
 // console.log(mapNames);
-console.log(checkTypeOf);
+// console.log(checkTypeOf);
+
+// method filter
+let positiveNums: number[] = [2, 3, 4, 5, 6];
+let filteredArr: number[] = positiveNums.filter((num: number) => num < 4);
+// console.log("filteredArr", filteredArr);
+
+// method sort
+let sortNums: number[] = [100, 2, 30, 5, 40, 6];
+let sortedResult = sortNums.sort((a: number, b: number) => a - b);
+// console.log(sortedResult);
+
+// method push
+sortedResult.push(200);
+// console.log(sortedResult);
+
+// method pop
+sortedResult.pop();
+// console.log(sortedResult);
+
+// method shift
+sortedResult.shift();
+// console.log(sortedResult);
+
+// method unshift
+sortedResult.unshift(1);
+// console.log(sortedResult);
+
