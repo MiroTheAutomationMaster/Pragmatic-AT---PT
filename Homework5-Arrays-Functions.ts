@@ -1,4 +1,8 @@
-// again 
+// 1. Create an array of strings and add a new element at the end of the array. Log the result.
+let dogs: string[] = ["pitbull", "german shepard", "cane corso"];
+dogs.push("scottish fold");
+console.log("1. Added new element:", dogs);
+
 // 1. Create an array of strings and add a new element at the end of the array. Log the result.
 let cats: string[] = ["british shorthair", "main coon", "persian"];
 cats.push("scottish fold");
