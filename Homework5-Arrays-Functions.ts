@@ -63,3 +63,4 @@ function calculateArea(width: number, height?: number): number {
 }
 console.log("10. Rectangle area (4x6):", calculateArea(4, 6));
 console.log("10. Square area (5x5):", calculateArea(5));
+// PR test: new commit
