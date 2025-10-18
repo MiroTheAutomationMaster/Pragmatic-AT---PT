@@ -1,3 +1,4 @@
+// again 
 // 1. Create an array of strings and add a new element at the end of the array. Log the result.
 let cats: string[] = ["british shorthair", "main coon", "persian"];
 cats.push("scottish fold");
