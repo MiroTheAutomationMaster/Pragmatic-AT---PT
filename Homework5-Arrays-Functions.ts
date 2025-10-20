@@ -1,4 +1,9 @@
 // 1. Create an array of strings and add a new element at the end of the array. Log the result.
+let dogs: string[] = ["pitbull", "german shepard", "cane corso"];
+dogs.push("scottish fold");
+console.log("1. Added new element:", dogs);
+
+// 1. Create an array of strings and add a new element at the end of the array. Log the result.
 let cats: string[] = ["british shorthair", "main coon", "persian"];
 cats.push("scottish fold");
 console.log("1. Added new element:", cats);
@@ -62,3 +67,4 @@ function calculateArea(width: number, height?: number): number {
 }
 console.log("10. Rectangle area (4x6):", calculateArea(4, 6));
 console.log("10. Square area (5x5):", calculateArea(5));
+// PR test: new commit
