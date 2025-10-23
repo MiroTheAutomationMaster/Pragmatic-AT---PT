@@ -53,11 +53,19 @@ let positiveNumComparison: string = numOne > 0 ? "The number is positive" : "The
 const numThree: number = 100;
 
 if (numThree <= 10) {
-    console.log("The number is less or equal to 10");
+    // console.log("The number is less or equal to 10");
 } else if (numThree > 110) {
-    console.log("The number is greater than 110");
+   // console.log("The number is greater than 110");
     } else if (numThree > 50) {
-    console.log("The number is greater than 50");
+    // console.log("The number is greater than 50");
 }else {
-   console.log("numOne is not greater than 3") 
+   // console.log("numOne is not greater than 3") 
 }
+
+// Union types
+let id: string | number;
+
+id = 10;
+id = "10";
+
+let result: number | boolean | null;

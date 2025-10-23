@@ -36,7 +36,15 @@ function greeting(name: string, age?: number) {
 
 // default parameters
 function substractNums(numOne: number = 10, numTwo: number = 5) {
-    console.log(numOne - numTwo);
+    // console.log(numOne - numTwo);
 }
-substractNums(50);
-substractNums(50, 30);
+// substractNums(50);
+// substractNums(50, 30);
+
+// Function with parameter of union type
+function printId(id: string | number) {
+    console.log(`Id - ${id} is type of ${typeof id}`)
+}
+
+printId("#10");
+printId(10)
