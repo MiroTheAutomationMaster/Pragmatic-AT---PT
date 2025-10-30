@@ -74,9 +74,29 @@ async function getData(): Promise<void> {
 // try catch finally
 try {
     const jsonData = JSON.parse('{"valid: true}');
-    console.log(jsonData);
+     //console.log(jsonData);
 } catch (err) {
-    console.error("Invalid JSON format!", err);
+     //console.error("Invalid JSON format!", err);
 } finally {
-    console.log("JSON parser ready");
+   // console.log("JSON parser ready");
 }
+
+// try/catch/finally exercise
+
+function divideNumbers(numOne: number, numTwo: number) {
+    try {
+      if (numTwo === 0) {
+        throw new Error ("Cannot divide by zero!");
+      } else {
+      const result: number = numOne / numTwo;
+      console.log(`Result ${result}`);
+    } 
+    }catch (err: unknown) {
+        console.error(`Error: ${err}`)
+    } finally {
+        console.log('Operation finished')
+    }
+}
+divideNumbers(20, 2)
+
+export{};
